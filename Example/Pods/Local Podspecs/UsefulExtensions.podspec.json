@@ -1,0 +1,22 @@
+{
+  "name": "UsefulExtensions",
+  "version": "0.1.0",
+  "summary": "A short description of UsefulExtensions.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/claustrofob/UsefulExtensions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "claustrofob": "claus@zlog.ru"
+  },
+  "source": {
+    "git": "https://github.com/claustrofob/UsefulExtensions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UsefulExtensions/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - UsefulExtensions (0.1.0)
+
+DEPENDENCIES:
+  - UsefulExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  UsefulExtensions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UsefulExtensions: a449c6335788f86050b6a8ff008da7df49087183
+
+PODFILE CHECKSUM: febe7cb04281e5a6688408d01a301fc88e752ed3
+
+COCOAPODS: 1.5.0
