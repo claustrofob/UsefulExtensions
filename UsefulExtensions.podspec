@@ -18,7 +18,7 @@ A set of swift extensions for use in any project
   s.homepage         = 'https://github.com/claustrofob/UsefulExtensions'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'claustrofob' => 'claus@zlog.ru' }
-  s.source           = { :git => 'https://github.com/claustrofob/UsefulExtensions.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/claustrofob/UsefulExtensions.git', :tag => s.version }
 
   s.ios.deployment_target = '9.0'
 
