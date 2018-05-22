@@ -8,7 +8,7 @@
 
 import UIKit
 
-public extension UINavigationController {
+extension UINavigationController {
 
     func pushViewController(_ viewController: UIViewController, animated: Bool, completion: @escaping () -> Void) {
         self.pushViewController(viewController, animated: animated)
@@ -30,6 +30,16 @@ public extension UINavigationController {
         coordinator.animate(alongsideTransition: nil) { _ in completion() }
     }
 
+    func popToViewController(_ viewController: UIViewController, animated: Bool, completion: @escaping () -> Void) {
+        self.popToViewController(viewController, animated: animated)
+
+        guard animated, let coordinator = transitionCoordinator else {
+            completion()
+            return
+        }
+        coordinator.animate(alongsideTransition: nil) { _ in completion() }
+    }
 }
+
 
 
