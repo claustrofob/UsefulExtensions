@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UINavigationController {
+public extension UINavigationController {
 
     func pushViewController(_ viewController: UIViewController, animated: Bool, completion: @escaping () -> Void) {
         self.pushViewController(viewController, animated: animated)
